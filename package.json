@@ -1,0 +1,25 @@
+{
+  "name": "simplify-training-assignment-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/app.ts --bundle --platform=node --target=es6 --outfile=dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit0009/SiMPLify-training-assignment-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohit0009/SiMPLify-training-assignment-1/issues"
+  },
+  "homepage": "https://github.com/rohit0009/SiMPLify-training-assignment-1#readme",
+  "dependencies": {
+    "@types/node": "^20.5.0",
+    "esbuild": "^0.19.2",
+    "typescript": "^5.1.6"
+  }
+}
